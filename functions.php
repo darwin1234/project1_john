@@ -171,4 +171,4 @@ class MySettingsPage
 if( is_admin() ){
     $my_settings_page = new MySettingsPage();
 }
-
+add_theme_support( 'post-thumbnails' );
