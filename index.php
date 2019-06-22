@@ -1,134 +1,70 @@
 <?php get_header(); ?>
-<!-- Projects Section -->
-  <section id="projects" class="projects-section bg-light">
-    <div class="container">
+<style>
+#section1{ padding:250px 0 250px 0;}
+#section2{background:#1c537c; padding-top: 140px;}
+#section2 h2{color:#fff;}
+#section2 p{color:#fff;}
+#section2 .imageCol{width:33%;}
+#section4{padding:150px 0 150px 0;}
 
-      <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+</style>
+<section id="section1" class="container">
+	<div class="row">
+		 <h1 class="mx-auto my-0 text-camelcase">Rodney Square Conservancy  Announces Its Premier Project</h1>
+		 <img src="<?php echo get_template_directory_uri(); ?>/img/logo-placeholder.jpg" style="width:300px; height:300px; margin: 140px auto; display:block;">
+	</div>
+</section>
+
+<section id="section2">
+	<div class="row">
+	<h2 class="mx-auto my-0 text-camelcase">What is Lorem Ipsum?</h2>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</div>
+	<div class="row">
+
+        <div class="imageCol mb-3 mb-md-0">
+         <img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" style="width:100%;">
         </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-          </div>
+
+        <div class="imageCol mb-3 mb-md-0">
+         <img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" style="width:100%;">
         </div>
-      </div>
 
-      <!-- Project One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+        <div class="imageCol mb-3 mb-md-0">
+		<img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" style="width:100%;">
         </div>
-        <div class="col-lg-6">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+     </div>
+</section>
 
-      <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
-            <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Signup Section -->
-  <section id="signup" class="signup-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-          </form>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="contact-section bg-black">
-    <div class="container">
-
-      <div class="row">
+  <!--- Section 4 -->
+<section id="section4" class="container">
+	<div class="row">
+	<h2 class="mx-auto my-0 text-camelcase">What is Lorem Ipsum?</h2>
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	</div>
+	
+	  <div class="row">
 
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-            </div>
+            <img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" style="width:80%; margin:auto; display:block; border-radius:300px; height:280px;">
           </div>
         </div>
 
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="#">hello@yourdomain.com</a>
-              </div>
-            </div>
+            <img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" style="width:80%; margin:auto; display:block;  border-radius:300px; height:280px;">
           </div>
         </div>
 
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
-            </div>
+            <img src="https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png" style="width:80%; margin:auto; display:block;  border-radius:300px; height:280px;">
           </div>
         </div>
       </div>
+</section>
+ 
 
-      <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-
-    </div>
-  </section>
 
 <?php get_footer();?>
